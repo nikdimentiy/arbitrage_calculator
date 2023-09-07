@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arbitrage Calculator</title>
+    <!-- Link to an external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to a favicon -->
+    <link rel="icon" href="favicon.ico"/>
+  </head>
+  <body>
+    <!-- Heading for the calculator -->
+    <h1>Arbitrage Calculator</h1>
+    <!-- Form for entering odds -->
+    <div class="form">
+      <label for="player1_odds">Enter the odds for Player 1:</label>
+      <!-- Input field for player 1 odds -->
+      <input type="number" step="0.01" id="player1_odds" />
+      <label for="player2_odds">Enter the odds for Player 2:</label>
+      <!-- Input field for player 2 odds -->
+      <input type="number" step="0.01" id="player2_odds" />
+      <!-- Button to trigger the calculation -->
+      <button onclick="calculate()">Calculate</button>
+    </div>
+    <!-- Div to display the result -->
+    <div id="result"></div>
+    <!-- Link to an external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>

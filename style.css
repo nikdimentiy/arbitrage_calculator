@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 3.3rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.15rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.form {
+  /* Sets the top margin to 30px. */
+  margin-top: 30px;
+
+  /* Displays the element in flexbox mode. */
+  display: flex;
+
+  /* Sets the flex direction to column. */
+  flex-direction: column;
+
+  /* Centers the items on the main axis. */
+  align-items: center;
+}
+
+label,
+input {
+  /* Displays the elements as blocks. */
+  display: block;
+
+  /* Sets the bottom margin to 10px. */
+  margin-bottom: 10px;
+  color: #1d3557;
+  font-size: 1.1rem;
+}
+
+button {
+  /* Sets the top margin to 10px. */
+  margin-top: 10px;
+
+  /* Sets the padding to 10px 20px. */
+  padding: 10px 20px;
+
+  /* Sets the font size to 16px. */
+  font-size: 20px;
+
+  /* Sets the background color to #4CAF50. */
+  background-color: #00ff00;
+
+  /* Sets the color to white. */
+  color: #264653;
+
+  /* Removes the border. */
+  border: none;
+
+  /* Rounds the corners of the button. */
+  border-radius: 4px;
+
+  /* Makes the button a pointer. */
+  cursor: pointer;
+}
+
+button:hover {
+  /* Sets the background color to #3E8E41 when the button is hovered over. */
+  background-color: #3e8e41;
+}
+
+#result {
+  /* Sets the top margin to 30px. */
+  margin-top: 30px;
+
+  /* Hides the element by default. */
+  display: none;
+}
+
+#result p {
+  /* Centers the text. */
+  text-align: center;
+
+  /* Sets the font size to 21px. */
+  font-size: 21px;
+
+  /* Sets the bottom margin to 10px. */
+  margin-bottom: 12px;
+}
+
+#result ul {
+  /* Removes the list style. */
+  list-style: none;
+
+  /* Removes the padding. */
+  padding: 0;
+
+  /* Displays the element in flexbox mode. */
+  display: flex;
+
+  /* Justifies the content of the element on the main axis. */
+  justify-content: space-around;
+}
+
+#result li {
+  /* Sets the font size to 16px. */
+  font-size: 17px;
+
+  /* Sets the padding to 10px. */
+  padding: 10px;
+
+  /* Sets the background color to #f2f2f2. */
+  background-color: #80ffff;
+
+  /* Rounds the corners of the list item. */
+  border-radius: 4px;
+
+  /* Adds a shadow to the list item. */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
